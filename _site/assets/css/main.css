@@ -497,7 +497,7 @@ th {
 
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
-  color: #303e49;
+  color: white;
   font-weight: bold; }
 
 .gigantic {
@@ -700,7 +700,7 @@ header {
   header .kicker {
     text-align: center;
     line-height: 1;
-    color: rgba(0, 0, 0, 0.5); }
+    color: white; }
 
 footer {
   background: url(../img/galway3.jpg) center center;
@@ -1318,7 +1318,7 @@ form {
   #h_small .kicker {
     text-align: center;
     line-height: 1;
-    color: rgba(0, 0, 0, 0.5); }
+    color: white; }
 
 .thumb-container {
   max-width: 960px;
