@@ -2,10 +2,10 @@
 Sleek Blog
 =============================
 
-[Live Website](http://gearoidoconnor.ie)
+[Live Website](www.zaexec.com)
 
 
-A blog project including full setup for Jekyll, GulpJS, SASS, AutoPrefixer &amp; BrowserSync
+ZaExec Website
 
 
 ## System Preparation
