@@ -703,7 +703,7 @@ header {
     color: white; }
 
 footer {
-  background: url(../img/galway3.jpg) center center;
+  background: black;
   background-size: cover; }
   footer .lockup {
     padding: 50px 30px; }
