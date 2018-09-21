@@ -651,12 +651,18 @@ header {
   header nav {
     float: right;
     margin: 30px 30px 30px; }
+    @media only screen and (min-width: 220px) {
+      header nav {
+        float: none; } }
     header nav a {
       margin-left: 20px;
       color: white; }
       @media only screen and (min-width: 220px) {
         header nav a {
-          display: none; } }
+          display: -ms-inline-flexbox;
+          display: inline-flex;
+          -ms-flex-pack: justify;
+              justify-content: space-between; } }
       @media only screen and (min-width: 650px) {
         header nav a {
           display: inline-block; } }

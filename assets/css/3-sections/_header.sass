@@ -63,11 +63,14 @@ header
 
   nav
     float: right
+    +MQ(S)
+      float: none
     margin: 30px 30px 30px
 
     a
       +MQ(S)
-        display: none
+        display: inline-flex
+        justify-content: space-between
       +MQ(M)
         display: inline-block
       margin-left: 20px
