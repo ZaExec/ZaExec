@@ -62,15 +62,16 @@ header
 
 
   nav
-    float: right
-    @media only screen and (max-width: 767px)
-      float: none
+    +MQ(L)
+      float: right
+    float: none
     margin: 30px 30px 30px
 
     a
-      @media only screen and (max-width: 767px)
-        display: inline-flex
-        justify-content: space-between
+      display: inline-flex
+      justify-content: space-between
+      +MQ(L)
+        display: inline-block
       +MQ(M)
         display: inline-block
       margin-left: 20px

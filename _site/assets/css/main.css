@@ -649,20 +649,21 @@ header {
     header {
       height: 450px; } }
   header nav {
-    float: right;
+    float: none;
     margin: 30px 30px 30px; }
-    @media only screen and (max-width: 767px) {
+    @media only screen and (min-width: 1070px) {
       header nav {
-        float: none; } }
+        float: right; } }
     header nav a {
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
       margin-left: 20px;
       color: white; }
-      @media only screen and (max-width: 767px) {
+      @media only screen and (min-width: 1070px) {
         header nav a {
-          display: -ms-inline-flexbox;
-          display: inline-flex;
-          -ms-flex-pack: justify;
-              justify-content: space-between; } }
+          display: inline-block; } }
       @media only screen and (min-width: 650px) {
         header nav a {
           display: inline-block; } }
