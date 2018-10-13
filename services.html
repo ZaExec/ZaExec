@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<head>
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+</head>
+
+{% include header.html %}
+
+<div class="owl-carousel">
+    <div class="services">
+        <img src="../assets/img/car1.jpg" alt="">
+    </div>
+    <div class="services">
+        <img src="../assets/img/car2.jpg" alt="">
+    </div>
+    <div class="services">
+        <img src="../assets/img/car3.jpg" alt="">
+    </div>
+    <div class="services">
+        <img src="../assets/img/car4.jpg" alt="">
+    </div>
+    <div class="services">
+        <img src="../assets/img/car5.jpg" alt="">
+    </div>
+</div>
+
+
+<script>
+    $(".owl-carousel").owlCarousel({
+        navigation: true,
+        loop: true,
+        items: 1,
+        autoplay: true,
+        autoplayTimeout: 3000,
+    });
+</script>
