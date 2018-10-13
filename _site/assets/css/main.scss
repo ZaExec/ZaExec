@@ -19,3 +19,19 @@
 @import "3-sections/headersmall";
 @import "3-sections/projects";
 @import "3-sections/posts";
+
+@media only screen and (max-width: 767px) {
+    .about-lock i {
+        font-size: 30px !important;
+    }
+    .about-lock {
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 20px;
+    }
+}
+.about-lock i {
+    font-size: 100px;
+}

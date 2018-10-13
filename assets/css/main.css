@@ -1363,3 +1363,10 @@ form {
 
 .temp-posts {
   margin-bottom: 350px; }
+
+@media only screen and (max-width: 767px) {
+  .about-lock i {
+    font-size: 30px !important; } }
+
+.about-lock i {
+  font-size: 100px; }
