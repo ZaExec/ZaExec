@@ -659,7 +659,7 @@ header {
       display: inline-flex;
       -ms-flex-pack: justify;
           justify-content: space-between;
-      margin-left: 20px;
+      margin-left: 10px;
       color: white; }
       @media only screen and (min-width: 1070px) {
         header nav a {
@@ -1366,7 +1366,16 @@ form {
 
 @media only screen and (max-width: 767px) {
   .about-lock i {
-    font-size: 30px !important; } }
+    font-size: 30px !important; }
+  .about-lock {
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    -ms-flex-align: center;
+        align-items: center;
+    width: 100%;
+    padding: 20px; } }
 
 .about-lock i {
   font-size: 100px; }
