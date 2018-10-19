@@ -1,5 +1,5 @@
 =============================
-Sleek Blog
+ZaExec
 =============================
 
 [Live Website](www.zaexec.com)

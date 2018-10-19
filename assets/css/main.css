@@ -1379,3 +1379,6 @@ form {
 
 .about-lock i {
   font-size: 100px; }
+
+.about-lock {
+  padding-top: 30px; }
