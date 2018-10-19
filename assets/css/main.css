@@ -856,6 +856,10 @@ footer {
   font-size: 22px;
   font-weight: 30;
   text-align: center; }
+  .blurb p {
+    font-size: 17px; }
+  .blurb li {
+    font-size: 15px; }
 
 .section-contact {
   background: #e5eaee;
