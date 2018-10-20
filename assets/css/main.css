@@ -856,6 +856,10 @@ footer {
   font-size: 22px;
   font-weight: 30;
   text-align: center; }
+  .blurb p {
+    font-size: 17px; }
+  .blurb li {
+    font-size: 15px; }
 
 .section-contact {
   background: #e5eaee;
@@ -903,7 +907,6 @@ footer {
 
 .biglink {
   display: inline-block;
-  margin-bottom: 70px;
   color: #303e49;
   font-size: 72px;
   font-weight: 300; }
@@ -1379,3 +1382,6 @@ form {
 
 .about-lock i {
   font-size: 100px; }
+
+.about-lock {
+  padding-top: 30px; }
