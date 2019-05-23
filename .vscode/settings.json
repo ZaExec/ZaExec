@@ -2,3 +2,14 @@
     "git.ignoreLimitWarning": true,
     "editor.wordWrap": "wordWrapColumn"
 }
+
+{
+    "files.exclude": {
+        "**/.git": true,         // this is a default value
+        "**/.DS_Store": true,    // this is a default value
+
+        "**/_site": true, // this excludes all folders 
+                                 // named "node_modules" from 
+                                 // the explore tree
+    }
+}
